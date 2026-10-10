@@ -33,16 +33,18 @@ Inspired by **IBM Granite Foundation Models** and the **IBM SkillsBuild Data Ana
 ```text
 IBM Internship project/
 │
-├── LalatenduBal_CustomerFeedbackAnalyticsAI.ipynb # Complete executed Jupyter Notebook (Code File)
-├── requirements.txt                              # Required dependencies
-├── LalatenduBal_ProjectReport.docx               # Full project documentation in Word format
-├── README.md                                     # Project overview and run guide (this file)
+├── LalatenduBal_EcommerceCustomerAnalytics_AI.ipynb # Masterclasses 1-4 Capstone Notebook (RFM, Churn ML, EDA)
+├── LalatenduBal_CustomerFeedbackAnalyticsAI.ipynb   # Complementary GenAI & NLP Sentiment Intelligence Notebook
+├── requirements.txt                                # Project dependencies
+├── LalatenduBal_ProjectReport.docx                 # Formal academic project documentation in Word format
+├── README.md                                       # Comprehensive project overview and run guide (this file)
 │
-├── customer_feedback_data.csv                    # Ingestion dataset (1,200 records)
-├── app.py                                        # Production FastAPI microservice backend
-├── generate_dataset.py                           # Dataset creation script
-├── create_notebook.py                            # Notebook generator & execution pipeline
-└── generate_report.py                            # Academic Word report builder script
+├── cleaned_ecommerce_data.csv                      # Cleaned 2,000 transaction dataset (from Masterclass 1)
+├── customer_feedback_data.csv                      # 1,200 feedback records dataset (for GenAI analysis)
+├── app.py                                          # Production FastAPI microservice backend
+├── clean_practice_data.py                          # Data cleaning script (Masterclass 1)
+├── create_masterclass_notebook.py                  # Masterclass notebook generator & execution pipeline
+└── update_master_report.py                         # Academic Word report builder script
 ```
 
 ---
@@ -161,7 +163,8 @@ Returns real-time aggregated metrics across all feedback records (average rating
 
 ## 📜 Verification Checklist for Submission
 According to the **AICTE | IBM SkillsBuild | BharatCares** certificate verification form requirements:
-- [x] **Code File:** [`LalatenduBal_CustomerFeedbackAnalyticsAI.ipynb`](file:///Users/maa/Desktop/IBM%20Internship%20project/LalatenduBal_CustomerFeedbackAnalyticsAI.ipynb)
+- [x] **Code File:** [`LalatenduBal_EcommerceCustomerAnalytics_AI.ipynb`](file:///Users/maa/Desktop/IBM%20Internship%20project/LalatenduBal_EcommerceCustomerAnalytics_AI.ipynb) *(Masterclasses 1–4 Capstone)* and [`LalatenduBal_CustomerFeedbackAnalyticsAI.ipynb`](file:///Users/maa/Desktop/IBM%20Internship%20project/LalatenduBal_CustomerFeedbackAnalyticsAI.ipynb) *(GenAI & NLP)*
 - [x] **Requirements File:** [`requirements.txt`](file:///Users/maa/Desktop/IBM%20Internship%20project/requirements.txt)
 - [x] **Project Report:** [`LalatenduBal_ProjectReport.docx`](file:///Users/maa/Desktop/IBM%20Internship%20project/LalatenduBal_ProjectReport.docx)
 - [x] **README File:** [`README.md`](file:///Users/maa/Desktop/IBM%20Internship%20project/README.md)
+- [x] **GitHub Repository:** [https://github.com/lalathegreat/IBM-SkillsBuild-Data-Analytics-with-AI-Internship-2026](https://github.com/lalathegreat/IBM-SkillsBuild-Data-Analytics-with-AI-Internship-2026)
